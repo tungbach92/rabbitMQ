@@ -1,5 +1,5 @@
 const amqplib = require('amqplib')
-const ampqp_url_docker = 'amqp://guest:guest@localhost:5672/'
+const ampqp_url_docker = 'amqp://localhost:5672'
 
 const sendQueue = async ({msg}) => {
     try {

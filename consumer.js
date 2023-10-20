@@ -1,5 +1,5 @@
 const amqplib = require('amqplib')
-const ampqp_url_docker = 'amqp://guest:guest@localhost:5672/'
+const ampqp_url_docker = 'amqp://localhost:5672/'
 
 
 // run this code with other consumers will register the same queue but message will be distributed in a round-robin fashion
