@@ -1,0 +1,25 @@
+{
+  "name": "database-elasticsearch-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:sendQueue": "nodemon producer.js",
+    "start:sendQueue1": "nodemon producer.js hello1",
+    "start:sendQueue2": "nodemon producer.js hello2",
+    "start:sendQueue3": "nodemon producer.js hello3",
+    "start:receiveQueue": "nodemon consumer.js",
+    "start:receiveQueue1": "nodemon consumer.js",
+    "start:receiveQueue2": "nodemon consumer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
