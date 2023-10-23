@@ -8,9 +8,12 @@
     "start:sendQueue1": "nodemon producer.js hello1",
     "start:sendQueue2": "nodemon producer.js hello2",
     "start:sendQueue3": "nodemon producer.js hello3",
+    "start:postVideo": "nodemon postVideo.js",
     "start:receiveQueue": "nodemon consumer.js",
     "start:receiveQueue1": "nodemon consumer.js",
     "start:receiveQueue2": "nodemon consumer.js",
+    "start:receiveNoti": "nodemon receiveVideoNoti.js",
+    "start:receiveNoti1": "nodemon receiveVideoNoti.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
